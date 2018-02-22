@@ -1,3 +1,8 @@
-let sum = (num1:number, num2:number):number => num1 + num2;
+(function() {
 
-export default sum;
+(<any>window)._l = {
+
+}
+}());
+
+export default (<any>window)._l
