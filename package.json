@@ -9,7 +9,7 @@
     "build": "webpack",
     "open": "index.html",
     "watch": "concurrently \"./node_modules/.bin/tsc -w\" \"webpack --watch\" \"index.html\"",
-    "start": "concurrently \"npm run compile\" \"npm run build\" \"index.html\"",
+    "start": "concurrently \"index.html\" \"npm run build\" \"npm run compile\"",
     "leencoln": "npm run start"
   },
   "author": "leencoln",

@@ -44,7 +44,7 @@ describe('Argument type "array"', function() {
 
 // describe('argument type "function"');
 
-describe('Argument type "etc.."', function() {
+describe('etc..', function() {
     
     describe('deepEqual', function() {
 
