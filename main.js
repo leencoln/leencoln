@@ -59,12 +59,12 @@ describe('etc..', function() {
         });
 
         it('should return true when received simple value', function() {
-            expect('abc').to.eql('abc');
-            expect(123).to.eql(123)
+            expect(_l.deepEqual('abc')('abc')).to.eql(true);
+            expect(_l.deepEqual(123)(123)).to.eql(true)
         });
 
         it('should return true when received complicated value', function() {
-            expect([1, 'a', arr1, obj1, true, false, undefined, null]).to.eql([1, 'a', arr1, obj1, true, false, undefined, null]);
+            expect(_l.deepEqual([1, 'a', arr1, obj1, true, false, undefined, null])([1, 'a', arr1, obj1, true, false, undefined, null])).to.eql(true);
         });
 
         it('exception handling // JSON.stringify(null) === JSON.stringify(NaN) -> true', function() {
