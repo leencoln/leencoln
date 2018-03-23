@@ -4,7 +4,7 @@ Intuitive functional library
 
 ## Intro
 
-> 타입스크립트로 작성된 함수형 라이브러리입니다. underscore, lodash, partial 등 여러 라이브러리를 참고하였으며, 많은 함수가 앞에서 언급한 라이브러리들의 기능과 동일합니다. 알고리즘 훈련페이지인 codewars에서 활용도가 높다고 판단 되어지는 함수들을 본인의 코드 작성 스타일로 재구성하였습니다. _l 이 window 객체에 할당되어 전역에서 사용 가능합니다. 
+> 타입스크립트로 작성된 함수형 라이브러리입니다. underscore, lodash, partial 등 여러 라이브러리를 참고하였으며, 많은 함수가 앞에서 언급한 라이브러리들의 기능과 동일합니다. 알고리즘 훈련페이지인 codewars에서 활용도가 높다고 판단 되어지는 함수들을 본인의 코드 작성 스타일로 재구성하였습니다. 현재는 20여개의 함수로 구성되어 있습니다. 
 
 ## Installation
 
@@ -55,7 +55,7 @@ npm run open : mocha chai로 작성된 테스트목록을 브라우져에서 확
 >- http://book.naver.com/bookdb/book_detail.nhn?bid=12800140
 >- underbar.js
 
-## Documnet
+## Document
 
 ### Basic
 
