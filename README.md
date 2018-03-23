@@ -59,8 +59,8 @@ npm run open : mocha chai로 작성된 테스트목록을 브라우져에서 확
 
 ### Basic
 
->- _l.itIsMe()
-전달받은 value를 반환합니다.
+#### _l.itIsMe()
+> 전달받은 value를 반환합니다.
 
 ```
 _l.itIsMe(1) // 1
