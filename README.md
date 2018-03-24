@@ -55,44 +55,8 @@ npm run open : mocha chai로 작성된 테스트목록을 브라우져에서 확
 >- http://book.naver.com/bookdb/book_detail.nhn?bid=12800140
 >- underbar.js
 
-## Document
+## Documentation
 
-### Basic
-
-#### _l.itIsMe()
-> 전달받은 value를 반환합니다.
-
-```
-_l.itIsMe(1) // 1
-_l.itIsMe('a') // 'a'
-```
-
-#### _l.isItMe()
-> 전달 받은 값을 판단하여 truthy 값은 true, falsey 값은 false를 반환합니다.
-
-```
-_l.isItMe(1) // true
-_l.isItMe('a') // true
-_l.isItMe(undefined) // false
-```
-
-#### _l.isItNotMe()
-> 전달 받은 값을 판단하여 truthy 값은 false, falsey 값은 true를 반환합니다.
-
-```
-_l.isItNotMe(1) // false
-_l.isItNotMe('a') // false
-_l.isItNotMe(undefined) // true
-```
-
-#### _l.noop()
-> undefined를 반환합니다.
-
-```
-_l.noop(1) // undefined
-_l.noop('a') // undefined
-_l.noop(undefined) // undefined
-```
 
 ### Number
 
@@ -118,6 +82,7 @@ _l.nDecimalPoint('trunc)(-100.34567)(3) // -100.345
 let nDecimalCeilPoint = _l.nDecimalPoint('ceil');
 nDecimalCeilPoint(100.12345)(3) // 100.123
 ```
+
 
 ### String
 
@@ -167,6 +132,7 @@ _l.toLower('_Abc Def--GHI---) // 'abcdefghi'
 _l.toUpper('abcdef') // 'ABCDEF'
 _l.toUpper('_Abc Def--ghi---') // 'ABCDEFGHI'
 ```
+
 
 ### Array
 
@@ -278,6 +244,7 @@ _l.unique(['a', 'a', 'b', 'b', 'b', 'c', 'c' ,'d']) // ['a', 'b', 'c', 'd']
 _l.withoutValue([1,2,3,4,5], 3) // [1,2,4,5]
 ```
 
+
 ### Object
 
 #### _l.getKeyByValue()
@@ -298,6 +265,7 @@ let obj = {a:'x', b:'y', c:'z'}
 
 _l.values(obj) // ['x', 'y', 'z']
 ```
+
 
 ### etc..
 
