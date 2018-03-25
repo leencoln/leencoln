@@ -25,8 +25,8 @@ npm install
 
 ## File Structure
 >- 라이브러리의 모든 로직은 src 폴더 내에 leencoln.ts 파일내에 작성되었습니다.
->- build 폴더 내에 leencoln.ts를 자바스크립트 파일로 컴파일한 결과를 확인 할 수 있습니다.(index.html은 build폴더만 참조하고 있습니다)
->- test.js 파일 내에서 작성된 테스트 로직이 확인 가능하며, index.html에서 test case를 통해 라이브러리의 용도가 대략적으로 확인 가능합니다.
+>- build 폴더 내에 leencoln.ts를 자바스크립트 파일로 컴파일한 결과를 확인 할 수 있습니다.
+>- test.js 파일 내에서 작성된 테스트 로직이 확인 가능하며, test case를 통해 라이브러리의 용도가 대략적으로 확인 가능합니다.
 
 ## Command
 
