@@ -117,6 +117,15 @@ _l.kebabCase('abc_Def Ghi') // abc-def-ghi
 _l.repeat('abc')(3) // 'abcabcabc'
 ```
 
+#### _l.replaceAll()()()
+> 입력받은 문자열을 모두 대체 문자로 변환하여 반환합니다.
+
+```
+_l.replace('a')('d')('ababababaaa') // 'dbdbdbdbddd'
+let AtoZreplaceAll = _l.('A')('Z')();
+AtoZreplaceAll('ABCABCABC') // 'ZBCZBCZBC'
+```
+
 #### _l.toLower()
 > 입력받은 문자열을 소문자로 반환합니다.
 

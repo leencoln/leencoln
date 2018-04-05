@@ -91,6 +91,22 @@ repeat: function(str: string, n: number): string {
     return result;
 }
 ,
+replaceAll: function(original: string) {
+    return function(replacement: string) {
+        return function(str: string): string {
+            let length: number = str.length;
+            for(let i = 0; i < length; i++) {
+                if(str[i] === original) {
+                    str = str.replace(original, replacement);
+                } else {
+                    continue;
+                }
+            }
+            return str;
+        }
+    }
+}
+,
 toLower: function(str: string): string {
     return this.camelCase(str).toLowerCase();
 }

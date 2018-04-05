@@ -46,7 +46,14 @@ describe('argument type "string"', function() {
         it('all characters contain first character will be lowercased', function() {
             expect(_l.kebabCase('Abc_def-Ghi JKL')).to.eql('Abc-def-ghi-jkl');
         })
-    })
+    });
+
+    describe('replaceAll', function() {
+        it('original characters replaced replacement character', function() {
+            expect(_l.replaceAll('a')('d')('ababababab')).to.eql('dbdbdbdbdb');
+        })
+    });
+
 });
 
 describe('argument type "array"', function() {
